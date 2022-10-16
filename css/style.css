@@ -105,6 +105,9 @@ header {
 
 .guitarras {
     background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner-guitarras {
@@ -117,6 +120,7 @@ header {
 
 .ofertas_black {
     background-color: var(--primary);
+    display: flex;
 }
 
 .ofertas-titulo-red {
