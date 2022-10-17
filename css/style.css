@@ -44,7 +44,8 @@ html {
 body {
     font-size: var(--text-sm);
     font-family: 'Noto Sans', sans-serif;
-    color: var(--primary)
+    color: var(--primary);
+    background-color: #000000;
 }
 
 ul {
@@ -138,5 +139,9 @@ header {
 
 .button-guitarras {
     margin-bottom: 200px;
+}
+
+.carrousel-item {
+    max-height: 400px;
 }
 
