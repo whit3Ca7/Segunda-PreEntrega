@@ -96,7 +96,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 .navbar .menu .menu__item {
@@ -104,10 +104,13 @@ header {
 }
 
 .guitarras {
+    color: #efeded;
     background-color: var(--primary);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top-left-radius: 20px;
 }
 
 .banner-guitarras {
@@ -119,21 +122,22 @@ header {
 }
 
 .ofertas_black {
+    color: #efeded;
     background-color: var(--primary);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.ofertas-titulo-red {
-    background: var(--light);
-    color: red;
+.logos_guitarras {
+    background-color: #ffffff;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 120px;
 }
 
-
-.banner-inicio {
-    background-color: #efeded;
+.button-guitarras {
+    margin-bottom: 200px;
 }
-
-
-
-
 
