@@ -84,7 +84,7 @@ header {
 .menu .menu__link:hover {
     background-color:var(--light);
     color: var(--primary);
-    border-radius: 5px;
+    border-radius: 0.5px;
 
 }
 
@@ -137,11 +137,12 @@ header {
     margin-bottom: 120px;
 }
 
-.button-guitarras {
-    margin-bottom: 200px;
-}
+
 
 .carrousel-item {
     max-height: 400px;
 }
 
+.guitarras-2 {
+    margin: 200px;
+}
