@@ -1,23 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
 
-
+/* Palette 
 :root {
-    /* Palette */
+   
     
     --primary: #000000;
     --secondary: #131F15;
     --light: #fdfdfd;
-
-    /* font sizes*/
+    */
+    /* font sizes
 
     --text-xxl: 4.8em;
     --text-xl: 3.2em;
     --text-lg: 2.0em;
     --text-md: 1.6em;
     --text-sm: 1.4em;
+    */
 
-    /* Spacings */
+    /* Spacings 
 
     --sp-xxl: 12rem;
     --sp-xl: 8rem;
@@ -25,41 +26,11 @@
     --sp-md: 3.2rem;
     --sp-sm: 1.6rem;
     --sp-xs: 0.8rem;
-}
+}*/
 
-/*Normalize*/
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: 62,5px;
-    background-color: #000000;
-}
-
-body {
-    font-size: var(--text-sm);
-    font-family: 'Noto Sans', sans-serif;
-    color: var(--primary);
-    background-color: #000000;
-}
-
-ul {
-    list-style-type: none;
-    font-size: 25px;
-}
+/* HEADER 
 
 
-a {
-    font-size: var(--text-md);
-    text-decoration: none;
-}
-
-/* HEADER */
 header {
     background-color: var(--primary);
     padding: var(--sp-sm);
@@ -85,7 +56,6 @@ header {
     background-color:var(--light);
     color: var(--primary);
     border-radius: 0.5px;
-
 }
 
 
@@ -104,14 +74,6 @@ header {
     display: inline-block;
 }
 
-.guitarras {
-    color: #efeded;
-    background-color: var(--primary);
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: baseline;
-}
 
 .banner-guitarras {
     max-width: 1687px;
@@ -121,14 +83,6 @@ header {
     max-width: 1687px;
 }
 
-.ofertas_black {
-    color: #efeded;
-    background-color: var(--primary);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 
 .logos_guitarras {
     background-color: #ffffff;
@@ -138,11 +92,34 @@ header {
 }
 
 
-
 .carrousel-item {
     max-height: 400px;
+} 
+
+*/
+
+
+/* GUITARRAS 
+
+.guitarras {
+    color: #efeded;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .guitarras-2 {
     margin: 200px;
+} 
+
+.ofertas_black {
+    color: #efeded;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+*/ 

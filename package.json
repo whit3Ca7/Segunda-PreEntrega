@@ -1,0 +1,26 @@
+{
+  "name": "tercera-preentrega-santiago_hugo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include.patch scss scss/index.scss css/translated.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whit3Ca7/Segunda-PreEntrega.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whit3Ca7/Segunda-PreEntrega/issues"
+  },
+  "homepage": "https://github.com/whit3Ca7/Segunda-PreEntrega#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
