@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +27,7 @@ ul {
   font-size: 25px; }
 
 a {
-  font-size: 1.6em;
+  font-size: 1.4em;
   text-decoration: none; }
 
 /* PARTIALS */
@@ -42,7 +43,8 @@ header {
     max-width: 1200px;
     margin: 0 auto; }
     header .container .menu {
-      display: inline-block; }
+      display: inline-block;
+      margin-bottom: 0; }
       header .container .menu .menu__item {
         display: inline-block; }
         header .container .menu .menu__item .menu__link {
@@ -50,25 +52,23 @@ header {
           display: inline-block;
           padding: 1.1rem 1rem;
           transition: all .3s ease-in-out; }
-        header .container .menu .menu__item .menu__link:hover {
-          background-color: #fdfdfd;
-          color: #000000;
-          border-radius: 0.5px; }
+          header .container .menu .menu__item .menu__link:hover {
+            background-color: #fdfdfd;
+            color: #000000;
+            border-radius: 0.5px; }
 
-.logos_guitarras {
-  background-color: #ffffff;
-  justify-content: space-around;
+footer {
+  background: linear-gradient(180deg, #060606 0%, #1036a8 100%);
+  height: 200px;
+  justify-content: center;
+  align-items: center;
   display: flex;
-  margin-bottom: 120px; }
+  color: white;
+  font-size: smaller; }
 
-.banner-inicio {
-  max-width: 1687px; }
-
-.carrousel-item {
-  max-height: 400px; }
-
-.banner-guitarras {
-  max-width: 1687px; }
+.logos_footer {
+  height: 50px;
+  margin: 20px; }
 
 /* PAGUES */
 .ofertas_black {
@@ -77,6 +77,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.logos_guitarras {
+  background-color: #ffffff;
+  justify-content: space-around;
+  display: flex;
+  margin-bottom: 120px; }
 
 .guitarras {
   color: #efeded;
